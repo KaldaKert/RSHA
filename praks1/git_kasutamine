@@ -25,3 +25,12 @@ git remote add RSHA https://hithub.com/kasutajanimi/reponimi.git
 
 b) git remote kontroll
 git remote -v
+
+a) pane fail jälgimisele: 
+git add failinimi
+
+b) lisa kirjelduse muudatuse kohta
+git commit -m "lühikekirjelduse lause"
+
+c) lisa kaugrepositooriumi
+git push -uf RSHA master
